@@ -1,4 +1,3 @@
-import Header from "./components/Header";
 import Layout from "./components/Layout";
 import RouterAnimation from "./components/RouterAnimation";
 
@@ -13,11 +12,9 @@ const App = () => {
   };
 
   return (
-    <>
-      <Layout>
-        <RouterAnimation personalDetails={personalDetails} />
-      </Layout>
-    </>
+    <Layout>
+      <RouterAnimation personalDetails={personalDetails} />
+    </Layout>
   );
 };
 
