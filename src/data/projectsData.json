@@ -1,0 +1,64 @@
+[
+  {
+    "title": "My Portfolio",
+    "image": "./imgMyWork/portfolio-img.png",
+    "description": "This Web Portfolio is intended for people who will access and know my personal data through what has been filled in this website.",
+    "technologies": "React | Sass | Javascript",
+    "github": "https://github.com/Wdnyana/wdnyana.github.io",
+    "deployed": "https://wdnyana.github.io/",
+    "bgcolor": "#141f3d",
+    "id": "1"
+  },
+  {
+    "title": "Jumpstart",
+    "image": "./imgMyWork/jumpstart-img.png",
+    "technologies": "React | Bootstrap 5 | Sass | Node | MongoDB",
+    "description": "Jumpstart is an E-Commerce project that sells various clothes such as shirts, jackets, and pants for children to adults. All sizes are available.",
+    "github": "https://github.com/Wdnyana/My-Academic-Project/tree/main/Jumpstart-Project",
+    "deployed": "",
+    "bgcolor": "#141f3d",
+    "id": "2"
+  },
+  {
+    "title": "Kopi Kultura",
+    "image": "./imgMyWork/kopi-kultura-img.png",
+    "technologies": "React | React-Bootstrap | Bootstrap 5 | Javascript",
+    "description": "The Kopi Kultura website contains information about this coffee shop, and Kopi Kultura also serves as a place for hanging out with friends, chatting, and joking around while enjoying leisure time.",
+    "github": "https://github.com/Wdnyana/Kopi-Kultura",
+    "deployed": "https://kopi-kultura.vercel.app/",
+    "bgcolor": "#141f3d",
+    "id": "3"
+  },
+  {
+    "title": "Meals on Wheels",
+    "image": "./imgMyWork/mow-img.png",
+    "technologies": "React | Bootstrap 5 | Node | Javascript | MongoBD",
+    "description": "Meals on Wheels website is a food donation website. This website was worked on by a group of four people, namely: Purwa, Yoghantara, Wahyu, Devon.",
+    "github": "https://github.com/Wdnyana/My-Academic-Project/tree/main/MoW",
+    "deployed": "https://meals-on-wheels-web.vercel.app/",
+    "bgcolor": "#141f3d",
+    "id": "4"
+  },
+
+  {
+    "title": "Know your Neigborhood",
+    "image": "./imgMyWork/kyn-img.png",
+    "description": "KYN is a website where people can open their own store by creating an account, and they will offer the items they will sell.",
+    "technologies": "React | Java | Javascript | MySQL | React-Bootstrap",
+    "github": "https://github.com/Wdnyana/My-Academic-Project/tree/main/KYN",
+    "deployed": "",
+    "bgcolor": "#141f3d",
+    "id": "1"
+  },
+
+  {
+    "title": "ABC Learning Center",
+    "image": "./imgMyWork/learning-center-img.png",
+    "technologies": "Javascript | HTML | CSS",
+    "description": "ABC Learning Center is a website that provides courses to learn the basics of Microsoft Word, PowerPoint, Excel, and so on.",
+    "github": "https://github.com/Wdnyana/My-Academic-Project/tree/main/ABC_LEARNING_CENTER/ITBS-BDSE04-FED-0322-Summative-Assesment-M1",
+    "deployed": "",
+    "bgcolor": "#141f3d",
+    "id": "6"
+  }
+]
