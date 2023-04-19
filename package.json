@@ -1,5 +1,4 @@
 {
-  "homepage": "https://wdnyana.github.io/wdnyana.github.io",
   "name": "portfolio-purwa",
   "version": "0.1.0",
   "private": true,
@@ -25,9 +24,7 @@
     "build-css": "sass src/assets/scss:src/assets/css --no-source-map --watch",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -46,8 +43,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
   }
 }
