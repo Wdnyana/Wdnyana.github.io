@@ -65,7 +65,7 @@ const Landing = ({ name }) => {
             />
             <div className="buttonContainer">
               <a
-                href="https://drive.google.com/uc?export=download&id=1rtvFHj1CQsVay6qgRe2goB9470oV2RSq"
+                href="https://drive.google.com/uc?export=download&id=1XgSyBw2amQCJh_714y0XCXfVJppQ6_Gv"
                 target="_blank"
                 rel="noreferrer"
               >
