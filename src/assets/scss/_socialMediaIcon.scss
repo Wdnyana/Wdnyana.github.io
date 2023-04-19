@@ -1,0 +1,105 @@
+.socialIcons {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+
+  .icon {
+    display: inline-flex;
+    width: 35px;
+    height: 35px;
+    font-size: 15px !important;
+    text-decoration: none;
+    color: $text-color;
+    border-radius: 50%;
+    outline: 1px solid $text-color;
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: 0.25s;
+
+    &:hover {
+      outline-offset: 4px;
+
+      i {
+        animation: shake 0.25s;
+      }
+    }
+
+    i {
+      margin: auto;
+    }
+  }
+
+  .icon--instagram {
+    &:hover {
+      background-image: radial-gradient(
+        circle at 20% 80%,
+        #fdf497 0%,
+        #fdf497 5%,
+        #fd5949 45%,
+        #d6249f 60%,
+        #285aeb 90%
+      );
+      outline-color: #a02d76;
+    }
+  }
+
+  .icon--facebook {
+    &:hover {
+      background-color: #4267b2;
+      outline-color: #4267b2;
+    }
+  }
+
+  .icon--linkedin {
+    &:hover {
+      background-color: #0077b5;
+      outline-color: #0077b5;
+    }
+  }
+
+  .icon--github {
+    &:hover {
+      background-color: #000000;
+      outline-color: #000000;
+    }
+  }
+}
+
+@keyframes shake {
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-15deg);
+  }
+  30% {
+    transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-15deg);
+  }
+}
+
+@media (min-width: 750px) {
+  .socialIcons {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+
+    .icon {
+      display: inline-flex;
+      width: 45px;
+      height: 45px;
+      font-size: 23px !important;
+      text-decoration: none;
+      color: $text-color;
+      border-radius: 50%;
+      outline: 2px solid $text-color;
+      transition-property: outline-offset, outline-color, background-color;
+      transition-duration: 0.25s;
+
+      .fa-brands {
+        padding-left: 2px;
+      }
+    }
+  }
+}

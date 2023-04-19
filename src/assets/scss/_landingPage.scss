@@ -1,0 +1,76 @@
+.landing {
+  .name {
+    font-size: 48px;
+  }
+
+  .description {
+    font-size: 22px;
+  }
+
+  .socialIcons {
+    margin-top: 15px;
+    padding-bottom: $sm-spacing;
+
+    &::before,
+    &::after {
+      background-color: $grey;
+      content: "";
+      height: 2px;
+      width: $spacing;
+      display: flex;
+      align-items: center !important;
+    }
+  }
+}
+
+.landingImage {
+  right: 0px;
+}
+
+.downloadCV {
+  margin-top: var(--sm-spacing);
+  margin-bottom: var(--sm-spacing);
+}
+
+.buttonContainer {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (min-width: 750px) {
+  .landing {
+    .name {
+      font-size: 70px;
+    }
+
+    .description {
+      font-size: 32px;
+    }
+  }
+
+  .landingImage {
+    bottom: 0;
+    right: 80px;
+  }
+
+  .textContainer {
+    width: 100%;
+  }
+
+  .buttonContainer {
+    width: 65%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 992px) {
+  .buttonContainer {
+    width: 30%;
+    margin: 30px auto;
+  }
+}

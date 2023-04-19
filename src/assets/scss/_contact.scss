@@ -1,0 +1,154 @@
+// MOBILE STYLES
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: $spacing;
+
+  .socialIcons {
+    display: none;
+  }
+}
+.contentTitle {
+  color: $text-color;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.contactInfo {
+  font-size: 12px;
+  color: $secondary-text-color;
+  margin-bottom: $sm-spacing;
+  margin-left: 10px;
+}
+
+.contentDescription {
+  font-size: 15px;
+}
+
+.info {
+  font-size: 15px;
+}
+
+.infoDescription {
+  margin-bottom: $sm-spacing;
+}
+
+.personalContactInfo {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.mediaWrap {
+  padding-left: $sm-spacing;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  a:hover {
+    color: $bg-btn-color-hover;
+  }
+}
+
+.formControl {
+  font-size: 15px;
+  border: 1px solid $grey !important;
+  width: 100%;
+  padding: 13px 23px;
+  border: none;
+  background-color: transparent !important;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  outline: none;
+  color: $grey;
+
+  &:focus {
+    background-color: transparent !important;
+  }
+}
+
+textarea {
+  resize: none;
+  height: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.formSubmit {
+  width: 75%;
+  margin: 0 auto;
+
+  .btn-submit-message {
+    width: 100%;
+  }
+}
+
+.icons {
+  color: $bg-btn-color;
+  font-size: 28px;
+}
+
+.infoIcon {
+  width: $spacing;
+  display: flex;
+  align-items: center;
+}
+
+.infoType {
+  color: $text-color;
+  font-size: 15px;
+}
+
+.infoValue {
+  a {
+    color: $bg-btn-color;
+  }
+}
+
+.contactForm {
+  margin-bottom: $sm-spacing;
+}
+
+@media (min-width: 400px) {
+  .contactInfo {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 750px) {
+  .contact {
+    .width-icons {
+      width: 50%;
+      .socialIcons {
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-bottom: $sm-spacing;
+      }
+    }
+
+    .socialIcons {
+      &::before,
+      &::after {
+        background-color: $grey;
+        content: "";
+        height: 2px;
+        width: $spacing;
+        display: inline-block;
+        margin-bottom: 7px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  .contact {
+    .width-icons {
+      width: 30%;
+    }
+  }
+}
