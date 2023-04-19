@@ -12,9 +12,11 @@ const App = () => {
   };
 
   return (
-    <Layout>
-      <RouterAnimation personalDetails={personalDetails} />
-    </Layout>
+    <div className="App">
+      <Layout>
+        <RouterAnimation personalDetails={personalDetails} />
+      </Layout>
+    </div>
   );
 };
 
