@@ -16,7 +16,7 @@ import SassLogo from "./sass.png";
 import MysqlLogo from "./mysql.png";
 import MongoDBLogo from "./mongodb.png";
 import FigmaLogo from "./figma.png";
-import ExcelLogo from "./ms-excel.png";
+import TailwindLogo from "./tailwindcss.png";
 import UbuntuLogo from "./ubuntu.png";
 import imageCertif from "./certification-ctf.png";
 
@@ -39,7 +39,7 @@ export {
   MysqlLogo,
   MongoDBLogo,
   FigmaLogo,
-  ExcelLogo,
+  TailwindLogo,
   UbuntuLogo,
   imageCertif,
 };

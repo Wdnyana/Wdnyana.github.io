@@ -19,7 +19,7 @@ import {
   MysqlLogo,
   MongoDBLogo,
   FigmaLogo,
-  ExcelLogo,
+  TailwindLogo,
   UbuntuLogo,
   imageCertif,
 } from "../assets/img";
@@ -46,10 +46,7 @@ const About = ({ name, email, location, availability, brand }) => {
           >
             <div className="contentContainer">
               <h4>Who Am I ?</h4>
-              <h5>
-                Junior Frontend Web Developer and Data Analyst with a passion
-                for creating digital solutions.
-              </h5>
+              <h5>Junior Web Developer</h5>
               <div className="contentDescription">
                 <p>{brand}</p>
               </div>
@@ -140,16 +137,16 @@ const About = ({ name, email, location, availability, brand }) => {
                 <div className="d-flex flex-column justify-content-center align-items-center">
                   <CardEducation
                     className="educationCard"
-                    title="Lithan EduClaas."
-                    subtitle="Applied Degree in Software Engineer."
-                    text="2022 - Present, Singapore."
+                    title="Institut Teknologi dan Bisnis STIKOM Bali"
+                    subtitle="Bachelor of Computer Systems."
+                    text="2019 - Present, Bali - Indonesia."
                   />
 
                   <CardEducation
                     className="educationCard"
-                    title="Institut Teknologi dan Bisnis STIKOM Bali"
-                    subtitle="Bachelor of Computer Systems."
-                    text="2019 - Present, Bali - Indonesia."
+                    title="Lithan EduClaas."
+                    subtitle="Applied Degree in Software Engineer."
+                    text="2022 - 2023, Singapore."
                   />
 
                   <CardEducation
@@ -248,8 +245,8 @@ const About = ({ name, email, location, availability, brand }) => {
 
                   <CardImageTitle
                     className="cardHobby"
-                    title="Microsoft Excel"
-                    imageUrl={ExcelLogo}
+                    title="Tailwind CSS"
+                    imageUrl={TailwindLogo}
                   />
 
                   <CardImageTitle

@@ -51,10 +51,7 @@ const Landing = ({ name }) => {
               className="description"
               onInit={(typewriter) => {
                 typewriter
-                  .typeString("I'm a Junior Frontend Web Developer")
-                  .pauseFor(1500)
-                  .deleteChars(22)
-                  .typeString("Data Analyst")
+                  .typeString("I'm a Junior Web Developer")
                   .pauseFor(1500)
                   .deleteAll()
                   .typeString(
@@ -65,18 +62,11 @@ const Landing = ({ name }) => {
             />
             <div className="buttonContainer">
               <a
-                href="https://drive.google.com/uc?export=download&id=1XgSyBw2amQCJh_714y0XCXfVJppQ6_Gv"
+                href="https://drive.google.com/uc?export=download&id=1OslxNueE58JKUj4W4UQd9itppwMzUhAU"
                 target="_blank"
                 rel="noreferrer"
               >
                 <button className="btn downloadCV">Download CV</button>
-              </a>
-              <a
-                href="https://youtu.be/QIH8PM6MnEI"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="btn downloadCV">Video Introduction</button>
               </a>
             </div>
           </div>
